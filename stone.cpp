@@ -28,7 +28,7 @@ int main(){
 	int n,k;
 	cin>>n>>k;
 	int h[n+1];
-	// min energy from 0th index to ith index
+	// min energy from ith index to last index
 	memset(dp,-1,sizeof(dp));
 	for(int i=1;i<=n;i++)
 		cin>>h[i];
